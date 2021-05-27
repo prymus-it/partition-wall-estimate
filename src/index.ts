@@ -189,7 +189,5 @@ export default function getMaterialsForWallAssembly(wallLength: number, assembly
         return [];
     }
 
-    // console.log(assembly)
-
     return assembly.materials;
 }
