@@ -1,0 +1,29 @@
+{
+  "name": "partition-wall-estimate",
+  "version": "0.1.0",
+  "description": "A simple method to estimate required materials for building a metal stud partition wall",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prymus-it/partition-wall-estimate.git"
+  },
+  "keywords": ["Partition", "Wall"],
+   "author": "prymus-it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prymus-it/partition-wall-estimate/issues"
+  },
+  "homepage": "https://github.com/prymus-it/partition-wall-estimate#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.3.2"
+  }
+}
