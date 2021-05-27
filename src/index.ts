@@ -177,6 +177,8 @@ export default function getMaterialsForWallAssembly(wallLength: number, assembly
         }
     }
 
+    assembly.wall.length = wallLength;
+
     updateAssemblyWithRequiredTracks(assembly);
     updateAssemblyWithRequiredDrywalls(assembly);
     updateAssemblyWithRequiredStuds(assembly);
